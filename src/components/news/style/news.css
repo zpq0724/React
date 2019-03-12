@@ -1,0 +1,78 @@
+#search{
+    width:100%;
+    height:.96rem;
+    display: flex;
+    justify-content: center;
+   
+}
+#search .inputInfo{
+    width:95%;
+    height:.8rem;
+    line-height:.82rem;
+    background:#f2f2f2;
+    border:none;
+    padding:0 40px;
+    border-radius: 2px;
+    outline: none; /*input点击时候去掉边框*/
+}
+
+.tabNav{
+    width:100%;
+     width:100%;
+    height:.8rem;
+    display:flex;
+    align-items: center;
+}
+.tabNav ul{
+    width:100%;
+    display: flex;
+    overflow: auto; 
+}
+
+.tabNav ul li{
+    width: 100%;
+    display: flex;
+}
+.tabNav ul li a{
+    font-size: 14px;color:#666;
+}
+
+
+
+#topListWrap{
+    width:100%;
+    height:10rem;
+    overflow-y: scroll;
+   
+}
+
+#topList{
+    width:100%;
+    height:2.45rem;
+    padding:5px;
+    display: flex;
+    box-shadow: 0px 0px 1px 0px #d3d3d3;
+}
+
+#topList .picLeft img{
+    width:3rem;
+    height:2.25rem;
+}
+
+#topList #rightText{
+    width:205px;
+    padding:0 5px 0 10px;
+}
+#topList #rightText p{
+    color:#999;
+}
+#topList #rightText .ItemTitle{
+    font-size: 0.3rem;
+    color: #333333;
+    letter-spacing: 0px;
+    line-height: 18px;
+    font-weight:600;
+}
+#topList #timeInfo{
+    margin-top:28px;
+}

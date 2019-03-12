@@ -1,0 +1,105 @@
+/*详情页轮播*/
+
+.detailSwiper-slide,
+.detailswiper {
+    display: flex;
+    width: 100%;
+    height: 375px;
+}
+
+.detailSwiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.con{
+    width: 100%;
+    height: 153px;
+    border-bottom: 5px solid #f2f2f2;
+}
+.con .conprice{
+    display: inline-block;
+    font-size: 16px;
+    background: #eee;
+    padding: 0px 30px;
+    padding-right: 10px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 10px
+}
+.con .context{
+    font-weight: 600;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 15px;
+}
+.con .sendadd{
+    font-size: 0.15rem;
+    color: #666;
+    padding-bottom: 20px;
+}
+
+.detailAll{
+    width:100%;
+    min-height: 200px;
+    overflow-y: scroll;
+    border-bottom: 5px solid #f2f2f2;
+}
+.detailAll .shangbiao{
+    text-align: center;
+    padding-top: 15px;  
+}
+.detailAll .shangbiao .logo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    overflow: hidden;
+    margin: 6px auto;
+}
+.detailAll .pCountry{
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: geometricPrecision;
+}
+.detailAll {
+    padding: 5px 16% 20px 16%;
+    font-size: 0.15rem;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-rendering: geometricPrecision;
+}
+
+.detailAll .detailshow{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 48px;
+    padding: 0 10px
+}
+.detailAll .detailshow p{
+    width: 50%;
+    float: left;
+    text-align: center
+}
+
+.detailAll .one{
+    width:375px;
+    height:375px;
+   
+   
+}
+
+.detailAll .one img{
+    width:100%;
+    height:100%;  
+}
+.detailAll .two{
+    padding: 10px 30px;
+    line-height: 24px;
+}

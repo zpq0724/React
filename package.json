@@ -1,0 +1,41 @@
+{
+  "name": "fengchao",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.11.4",
+    "antd-init": "^2.0.7",
+    "antd-mobile": "^2.2.6",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
+    "better-scroll": "^1.13.2",
+    "http-proxy-middleware": "^0.19.1",
+    "react-app-rewired": "^1.6.2",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1",
+    "redux-promise-middleware": "^5.1.1",
+    "swiper": "^4.4.6"
+  }
+}
