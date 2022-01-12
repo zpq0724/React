@@ -26,7 +26,7 @@ class App extends Component {
             <Route path ="/details" component={Details}/>
             <Redirect path="/" to="/home" />
           </Switch>
-        <div id="footer">
+        {/* <div id="footer">
           <ul>
             <li>
                 <NavLink to="/home"><i className="iconfont">&#xe614;</i><span>首页</span></NavLink>
@@ -36,7 +36,7 @@ class App extends Component {
                 <NavLink to="/my"><i className="iconfont">&#xe658;</i><span>我的</span></NavLink>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       </Router>
       </Provider>
